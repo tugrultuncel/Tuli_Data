@@ -1,3 +1,5 @@
+#suggestion_extractor.py is used once to identify stable Google Trends topic IDs.
+
 from pytrends.request import TrendReq
 
 pytrends = TrendReq(hl='pl-PL', tz=360)
