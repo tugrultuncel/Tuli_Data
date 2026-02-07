@@ -62,6 +62,7 @@ if failed_keywords:
     logger.warning(f'Failed keywords: {failed_keywords}')
 
 #DataFrame creation and saving to CSV
+output_file_raw="suggestions_rav.csv"
 if rows:
     df = pd.DataFrame(rows)
     df.to_csv(output_file_raw, index=False)
